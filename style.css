@@ -7,11 +7,13 @@ body{
     min-height: 100vh;
     font-family: 'Changa', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #353b48;
 }
 .button-container{
+    margin-top: 20px;
     border: 2px solid #0097e6;
     padding: 10px;
     border-radius: 7px;
@@ -36,7 +38,8 @@ body{
     background: linear-gradient(to bottom,#0097e6,#00a8ff);
 }
 
+
 button:active{
-    transform: translateY(-2px);
+    transform: translateY(3px);
     box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.5);
 }
